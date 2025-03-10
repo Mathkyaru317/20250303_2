@@ -32,8 +32,8 @@ function setup() {
       window.location.href = 'https://www.tku.edu.tw/';
     } else if (selected === '教育科技學系') {
       window.location.href = 'https://www.et.tku.edu.tw/';
-    } else if (selected === 'iclass') {
-      window.location.href = 'https://iclass.tku.edu.tw/';
+    } else if (selected === '測驗卷') {
+      window.location.href = 'https://mathkyaru317.github.io/20250310_2/';
     }
   });
 }
