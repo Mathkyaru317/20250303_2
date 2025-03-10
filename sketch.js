@@ -25,7 +25,7 @@ function setup() {
   dropdown.option(''); // 預設選項為空白
   dropdown.option('淡江大學');
   dropdown.option('教育科技學系');
-  dropdown.option('iclass');
+  dropdown.option('測驗卷');
   dropdown.changed(() => {
     let selected = dropdown.value();
     if (selected === '淡江大學') {
